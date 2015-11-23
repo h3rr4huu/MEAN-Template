@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+	<base href="/">
+
+	<title>Events admin</title>
+
+</head>
+
+<body data-ng-app="TemplateApp" data-ng-strict-di data-ng-controller="MainController" data-ng-cloak>
+	
+	<div class="container-fluid">
+		
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Template</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/">Home</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<!-- Content -->
+	<div data-ng-view data-autoscroll="true"></div>
+
+	<script src="js/lib-bundle.js"></script>
+	<script src="js/app-bundle.js"></script>
+
+	<link rel="stylesheet" href="css/libstyle-bundle.min.css">
+	<link rel="stylesheet" href="css/style-bundle.min.css">
+
+</body>
+</html>
