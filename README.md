@@ -1,8 +1,8 @@
 # MEAN Template App #
 
-(Node.js, AngularJS, Express.js, SASS and Bootstrap 3. MongoDB set up not included.)  
+(Node.js, AngularJS, Express.js, SASS, Bootstrap 3 and Gulp. MongoDB set up not included.)  
 
-This is a template app for MEAN-stack development. A complete gulpfile is also included for building JavaScripts and SASS-files.
+This is a template app for easy MEAN-stack development. A complete gulpfile is also included for building JavaScripts and SASS-files.
 
 ## Requirements ##
 
@@ -24,6 +24,6 @@ Bower install should automatically be run after "npm install", but you may run i
 
 ### Licence ###
 
-Licensed under MIT licence
+Licensed under [MIT](https://opensource.org/licenses/MIT) licence
 
 Copyright (c) 2015 [Mikko Nieminen](http://mikkonieminen.com)
